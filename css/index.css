@@ -1,0 +1,408 @@
+html{
+	font-size: 100px;
+}
+
+@media screen and (max-width: 768px){
+    html{
+        font-size: 120px;
+    }
+}
+
+ @media screen and (max-width: 414px){
+	html{
+	    font-size: 185.50724638px;
+	}
+}
+
+@media screen and (max-width: 376px){
+	html{
+	    font-size: 58.59375px;
+	}
+}
+
+
+@media screen and (max-width: 320px){
+	html{
+    	font-size: 50px;
+	}
+}
+
+        body{
+          max-width: 640px;
+          margin: 0 auto;
+        }
+        .sougou{
+        	width: 6.4rem;
+        	height: 0.75rem;
+        	background: #ff852a;
+        	overflow: hidden; 
+        }
+       
+        
+        .sougou img{
+        	width: 0.54rem;
+        	height: 0.40rem;
+        	margin: 0.18rem 0 0.17rem 0.18rem;
+        	float: left;
+
+        }
+          .sougou .text{
+          	width: 5.3rem;
+          	height: 0.5rem;
+          	margin: 0.13rem 0.18rem 0.13rem 0.13rem;
+          	
+          	border-radius:5px ;
+          	border: 0;
+           
+
+
+
+        
+          }
+          .sougou .sougou1{
+          	float: right;
+          	position: relative;
+          	top: -0.48rem;
+          }
+          .logo{
+          	height: 2.04rem;
+          }
+          .logo img{
+          	width: 6.4rem;
+          	height: 2.04rem;
+          	
+          }
+          .nav{
+          	height: 3.57rem;
+          	
+          	margin-top: 0.7rem;
+          }
+          .nav .nav1{
+          	height: 2.53rem;	
+
+          }
+          .nav .nav1  ul{
+          	display: flex;
+          	flex-flow: row  wrap;
+
+          ;
+          }
+          .nav .nav1  ul li{
+          	flex:1;
+          	width: 20%;
+
+          }
+          .nav .nav1 li a{
+          	width: 1.28rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			height: 1.265rem;
+          }
+          .nav .nav1 li  a img{
+          	height: 0.73rem;
+          	width: 0.73rem;
+          }
+          .nav .nav1 a span{
+          	font-size: 0.18rem;
+          	color: #9a9a9a;
+          	margin-top: 0.15rem;
+          }
+        
+    	.nav .nav2{
+    		width: 6.40rem;
+    		height: 1.04rem;
+    		
+    	}
+    	.nav .nav2 .hh{
+    		width: 0.6rem;
+    		height: 0.6rem;
+    		margin: 0.24rem 0.18rem 0.22rem 0.2rem;
+        float: left;
+    		
+    	}
+    	.nav .nav2 .nav21 .hp{
+    		width:1.22rem; 
+    		height: 1.04rem;	
+    		float: left;	
+    		position: relative;
+    		
+        right: -0.25rem;
+    	}
+    	.nav .nav2 .nav21 p span{
+    		display: block;
+    		border: 1px solid red;
+    		color: red;
+    		float: left;
+    		height:0.23rem;
+    		border-radius: 4px;
+    		width: 0.5rem;
+    		height: 0.23rem;
+    		text-align: center;
+    		margin-right: 0.13rem;
+    		font-size: 0.18rem;
+
+    	}
+    	.nav .nav2 .nav21 p{
+    		font-size: 0.18rem;
+    		height: 0.3rem;
+    		line-height: 0.3rem;
+    		
+    	}
+    	.nav .nav2 .nav21 .nav211{
+    		height: 0.62rem;
+    		width: 3.94rem;
+    		margin-top: 0.22rem;
+        float: left;
+    	}
+    	.nav .nav2 .nav21 a{
+    		color: #595959;
+    	}
+    	.nav .nav2 .nav21{
+    		
+    		height: 1.04rem;
+    		
+    	}
+      .h{
+        width: 6.4rem;
+        height: 0.17rem;
+        background: #f4f4f4;
+      }
+    	
+    	.main{
+    		width: 6.4rem;
+    		height: 3.78rem;	
+    	}
+    	.main .main11{
+    		
+    		width: 3.2rem;
+    		height: 1.88rem;
+    		border: 1px solid #efefef;
+    		box-sizing: border-box;
+    		float: left;
+    	}
+    	.main .main11 a{
+    		color: red;
+    		font-size: 0.26rem;
+    		position: relative;
+    		top:-0.64rem;
+    		left: 0.18rem;
+
+    	}
+    	
+    	.main .main11 .tupian{
+    		height: 1rem;
+    		width: 0.55rem;
+    		position: relative;
+    		top: 1.3rem;
+    		left: 0.3rem;
+    		float: left;
+    	}
+    	.main  .main11 .tupian2{
+    		width: 1.33rem;
+    		height: 1.51rem;
+    		float:right;
+    		position: relative;
+    		top: 0.85rem;
+    		right: 0.3rem;
+    	}
+      .h2{
+        width: 6.4rem;
+        height: 0.37rem;
+        background: #f4f4f4;
+      }
+      .h3{
+        width: 1.71rem;
+        height: 0.5rem;
+        position: relative;
+        top: -0.7rem;
+        z-index: 11;
+
+      }
+      .photo{
+        width: 6.4rem;
+        height: 4.28rem;
+        background: pink;
+        position: relative;
+        top: -1.28rem;
+      }
+      .photo .ph1{
+        width: 4.26rem;
+        height: 2.14rem;
+        float: left;
+        margin-right: 0.01rem;
+      }
+      .photo .ph2{
+        width: 2.13rem;
+        height: 2.14rem;
+        float: left;
+
+      }
+      .photo .ph3{
+        width: 2.13rem;
+        height: 2.14rem;
+        float: left;
+      }
+      .photo .ph4{
+        width: 2.13rem;
+        height: 2.14rem;
+        float: left;
+      }
+      .photo .ph5{
+        width: 2.13rem;
+        height: 2.14rem;
+        float: left;
+      }
+      .photo1{
+        width: 6.4rem;
+        height: 0.94rem;
+        float: left;
+        margin-top: -1.36rem;
+       }
+      .photo1 .photo11{
+        float: left;
+        width: 2.13rem;
+      }
+      .photo1 h4{
+        font-size: 0.22rem;
+        color: #393939;
+        margin-left: 0.18rem;
+        line-height: 0.34rem;
+        margin-top: 0.13rem;
+
+       }
+       .photo1 p{
+        font-size: 0.2rem;
+        color: #c3c3c3;
+        margin-left: 0.18rem;
+        line-height: 0.29rem;
+       }
+       .f{
+        width: 6.4rem;
+        height: 0.64rem;
+        margin-top: -0.5rem;
+
+       
+       }
+       .f h4{
+        display: inline-block;
+        font-size: 0.22rem;
+        color: #120101;
+       line-height: 0.64rem;
+       float: left;
+       margin-top:-0.5rem;
+       }
+       .f h4 span{
+        border-radius: 4px;
+        margin: 0 0.09rem 0 0.17rem;
+        font-size: 0.2rem;
+        color: #fe7a9c;
+        border: 1px solid #fe7a9c;
+       }
+       .f a{
+        font-size: 0.22rem; 
+        color: #120101;
+        line-height: 0.64rem;
+        float: left;
+        margin-left: 1.44rem;
+        margin-top: -0.5rem;
+       }
+       .f a span{
+        font-weight: bold;
+       }
+       .min{
+        width: 6.4rem;
+        
+       }
+       .min .h6{
+        width: 6.4rem;
+        height: 0.37rem;
+        background: #f4f4f4;
+       }
+       .min .min2{
+        width: 1.71rem;
+        height: 0.5rem;
+        float: left;
+        margin-top: -0.15rem;
+        z-index: 100;
+       }
+       .min .min1{
+        width: 4.27rem;
+        height: 2.16rem;
+       margin-left: -1.7rem;
+       }
+       .min .min3{
+        width: 2.12rem;
+        height: 2.13rem;
+        float: right;
+       }
+       .mini{
+        width: 6.4rem;
+        height: 4.2rem;
+        
+        margin-top: -0.3rem;
+        overflow: hidden;
+        
+       
+       }
+        .mini div{
+          float: left;
+        }
+       .mini .mini1 img{
+       position: relative;
+       top: -0.9rem;
+       left: 1.2rem;
+       }
+        .mini  .mini1 h3{
+        font-size: 0.24rem;
+        color: #a455ff;
+        margin-left: 0.16rem;
+       margin-top: 0.18rem;
+       width: 0.96rem;
+        line-height: 0.36rem
+
+       }
+        .mini  p{
+        font-size: 0.2rem;
+        color: #afafaf;
+        margin-left: 0.16rem;
+        float: left;
+        line-height: 0.26rem;
+       }
+       .mini div {
+        width: 3.2rem;
+        height: 2.1rem;
+
+       }
+       .mini .mini1{
+        height: 0.62rem;
+       }
+       .mini .minipng{
+        height: 0.77rem;
+        width: 1.05rem;
+         margin-left: 0.25rem;
+        margin-top: 0.29rem;
+        float: left;
+
+       }
+       .mini .minipng2{
+        height: 1.07rem;
+        width: 0.94rem;
+        float: left;
+        margin-top: 0.14rem;
+        margin-left: 0.66rem;
+       }
+     .sougou input{
+      text-align: center;
+      color: #fff;
+
+      background: url(../img/22.png) no-repeat #ff4e22 1.55rem center ;
+      background-size: 5% 39%;
+
+
+     }
+      input::-webkit-input-placeholder{
+     
+        color: #fff;      
+       }
